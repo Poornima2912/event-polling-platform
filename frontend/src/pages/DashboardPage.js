@@ -14,6 +14,8 @@ const DashboardPage = () => {
       <h2>Welcome to Your Dashboard</h2>
       <p>You’re logged in and ready to manage your events!</p>
       <button onClick={handleLogout}>Logout</button>
+      console.log("Dashboard loaded");
+
     </div>
   );
 };
